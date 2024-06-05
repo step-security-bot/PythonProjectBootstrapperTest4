@@ -50,12 +50,14 @@ Download an executable for Linux, MacOS, or Windows to use the functionality pro
 
 Executables are signed and validated using [Minisign](https://jedisct1.github.io/minisign/).
 
+The public key for executables in this repository is `RWSjyEkqF7YM1vomTF3Ol6GJ+Ljq8RofEqGgf8KG/sa9NtQP/6OuqonS`.
+
 To verify that the executable is valid, download the corresponding `.minisig` file [here](https://github.com/gt-sse-center/PythonProjectBootstrapperTest4/releases/latest) and run the command corresponding to your operating system, replacing `<filename>` with the name of your file.
 
 | Operating System | Command |
 | --- | --- |
-| Linux / MacOS | `docker run -i --rm -v "$(pwd):/host" jedisct1/minisign -V -P RWSjyEkqF7YM1vomTF3Ol6GJ+Ljq8RofEqGgf8KG/sa9NtQP/6OuqonS -m <filename>` |
-| Windows | `docker run -i --rm -v "%CD%:/host" jedisct1/minisign -V -P RWSjyEkqF7YM1vomTF3Ol6GJ+Ljq8RofEqGgf8KG/sa9NtQP/6OuqonS -m <filename>` |
+| Linux / MacOS | `docker run -i --rm -v "$(pwd):/host" jedisct1/minisign -V -P RWSjyEkqF7YM1vomTF3Ol6GJ+Ljq8RofEqGgf8KG/sa9NtQP/6OuqonS -m /host/<filename>` |
+| Windows | `docker run -i --rm -v "%CD%:/host" jedisct1/minisign -V -P RWSjyEkqF7YM1vomTF3Ol6GJ+Ljq8RofEqGgf8KG/sa9NtQP/6OuqonS -m /host/<filename>` |
 
 Instructions for installing [docker](https://docker.com) are available at https://docs.docker.com/engine/install/.
 

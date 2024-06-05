@@ -1,0 +1,28 @@
+#############################################################################################################
+# This file is used by PythonProjectBootstrapper (https://github.com/gt-sse-center/PythonProjectBootstrapper)
+# to determine whether changes have been made to any files in the project. These values are saved in case the
+# project is regenerated so we can avoid overwriting any user changes. Please do not change the contents :)
+#############################################################################################################
+
+.github/release_sources.yaml: c2241d25423ec6e22afa41c6caed30162438af803e6de74ee466479ca6cd8246
+.github/workflows/codeql.yml: f8346aef133b7aaa4973b818a67304bc2732a3712b9fc65f0503d8116a343dee
+.github/workflows/standard.yaml: 8abdc7d1abf5bf1500869904bae341e5797fff4ff7bb9e7703a374461046ccd9
+.gitignore: ee7e13852b7d33c0ebe044754ad730d5cbb24fbfd0cadcd21e487a78a822a30f
+ActivateEpilog.py: 102bb407fb3efcdbb697c4c5ea0d98236d43490ff9297bfa00b37ffaed66501d
+Bootstrap.cmd: 48a673262f121c847d924d9b4b1db2a7ee01ef46d0aca8912d0c90f1f1d464c1
+Bootstrap.sh: c68ba07e6ab2df55c54a0285becf8c510cba9d0738f7c1b59b24a6188bb486f8
+BootstrapEpilog.py: 189f221c6c7e12a7ee6cfaacd61a91160ec3d4ff1cd4432805c7cc54fd0004e8
+Build.py: b57d0704373c5e506d7f1c397d559d927a05aa581ce75b8fe80d9e95b64b6adb
+CONTRIBUTING.md: fe444325772afce600707894ca62be183b41a31aa9b77ab075ba2eb3c9fe4e0b
+DEVELOPMENT.md: a32e71d167a0a268b3fbb65ff3d629433034984bc377a5161bde78f532f18020
+LICENSE.txt: 926ac101b5077d6f6ad3c63c72dc54a66313d90a837b45357f1ed54840819bc6
+README.md: 759b4b81c5de7c5b28d030ecb8051aa98eda1bbc011dd6de453707853d0e4282
+SECURITY.md: 9066caf46d69c59745bbb2eaace27a952837ab01e68572317570f5c3706d861e
+pyproject.toml: 477a6dbe3703ac65d05becf3aef1b477fbaf52e89f7de47cbfabe2550d640e15
+src/AutoGitSemVer.yaml: 372dff228c6bbd856b34e0d7f7c9158fa24bc894fac1aaf566880d6f54daafe2
+src/BuildBinary.py: 41cf13f21c50cf0eac6680dcbf67530de05d4f030b9ca8315034cdec1b155272
+src/PythonProjectBootstrapperTest4/EntryPoint.py: b2b8e5ada5fe3918879a8491def0f8a75a66db9c5746e0321d263766bfb545bb
+src/PythonProjectBootstrapperTest4/Math.py: d73cf077db61bbe80b3996356509f56801cc362e89fe0c3f260cf2b99580f9a1
+src/PythonProjectBootstrapperTest4/__init__.py: dcb4fe10b751c801ab2c7e848e243417958a4b0969bd2dd977a79277611418b3
+tests/EntryPoint_UnitTest.py: 8803fd0ac5204c864d4dd328176b04170c4f97f994a67256bb7f4fc9f04ad5a3
+tests/Math_UnitTest.py: 4a650ab578f653865163109849b1a990e5734f774b5e1bb0fae9b830ec224378
